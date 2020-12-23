@@ -2,7 +2,7 @@ body{
     font-family:'Nunito', sans-serif;
 }
 .divcontainer{
-    width: 60%;
+    width: 70%;
 }
 .fieldset{
     border-radius: 20px;
@@ -24,4 +24,9 @@ body{
 }
 .bton:hover{
     background-color:yellow;
+}
+footer{
+    color: red;
+    font-weight:bold;
+
 }

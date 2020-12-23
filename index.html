@@ -12,10 +12,11 @@
         <fieldset class="fieldset">
             <legend class="leg">Entrada de dados:</legend>
             <p>Valor de X1: <input type="number" name="num" id="txtx1" required></p>
-            <p>Valor de X2: <input type="number" name="num" id="txtx2" required></p>
             <p>Valor de Y1: <input type="number" name="num" id="txty1" required></p>
+            <p>Valor de X2: <input type="number" name="num" id="txtx2" required></p>
             <p>Valor de Y2: <input type="number" name="num" id="txty2" required></p>
-            <p><input class="bton" type="button" value="Calcular" onclick="funcaoprim()"></p>
+            <p><input class="bton" type="button" value="Calcular" onclick="funcaoprim()" alt="Clique no botão para calcular"></p>
+            <p>Os pontos usados são: A( <label class="lbtxt" id="txa"></label> ) e B ( <label class="lbtxt" id="txb"></label> )</p>
         </fieldset>
         <fieldset class="fieldset">
             <legend class="leg">Valores de a e b:</legend>
@@ -37,6 +38,7 @@
             <p>Valor de Y: <input type="number" name="num" id="verytxt" required> <input class="bton" type="button" value="Calcular X" onclick="calvalx()"> O valor de X é: <label class="lbtxt" id="valx"></label></p>
         </fieldset>
     </div>
+    <footer>Desenvolvido por Felipe Drechsler</footer>
 
     <script type="text/javascript" src="fx.js"></script>
 </body>
